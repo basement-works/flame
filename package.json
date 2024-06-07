@@ -1,9 +1,13 @@
 {
+  "name": "@bsmnt-works/flare",
   "scripts": {
     "dev": "bun run --hot src/index.ts"
   },
   "dependencies": {
-    "hono": "^4.4.2"
+    "@hono/node-server": "^1.11.2",
+    "@prisma/client": "5.15.0",
+    "hono": "^4.4.2",
+    "prisma": "^5.15.0"
   },
   "devDependencies": {
     "@types/bun": "latest"
